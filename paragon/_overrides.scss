@@ -7,13 +7,3 @@
 header a.logo {
   height: 84px !important;
 }
-
-#root > div{
-   display: flex;
-   flex-direction: column;
-   min-height: 100vh;
-}
-
-main{
-   flex-grow: 1;
-}
