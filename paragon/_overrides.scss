@@ -55,3 +55,9 @@ span.d-block.small.m-0 {
 span.d-block.m-0.font-weight-bold.course-title {
     color: #fff !important;
 }
+
+.btn-outline-primary:disabled {
+    background-color: initial;
+    border-color: #ED5846 !important;
+    color: #ED5846 !important;
+}
