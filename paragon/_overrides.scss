@@ -63,17 +63,22 @@ span.d-block.m-0.font-weight-bold.course-title {
 .sequence-navigation-tabs {
     display: none !important;
 }
-.unit-navigation .next-button, .unit-navigation .previous-button {
+.unit-navigation .next-button, .unit-navigation .previous-button, #courseware-sequenceNavigation .previous-btn,
+#courseware-sequenceNavigation .next-btn {
     border-radius: 3.371px;
     border: 2.023px solid var(--Blue-Dark, #06263D) !important;
     background: var(--Acinet-Green-Faded, #E7EFD5);
-    color: var(--Blue-Dark, #06263D);
+    color: var(--Blue-Dark, #06263D) !important;
     text-align: center;
     font-family: "Noto Kufi Arabic";
     font-size: 13.484px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.btn:disabled {
+    opacity: unset !important;
 }
 
 
