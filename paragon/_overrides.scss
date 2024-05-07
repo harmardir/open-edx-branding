@@ -49,13 +49,12 @@ header a.logo {
 }
 
 span.d-block.small.m-0 {
-    color: #fff !important;
+    display: none !important;
 }
 
 span.d-block.m-0.font-weight-bold.course-title {
-    color: #fff !important;
+    display: none !important;
 }
-
 
 // Learning MFE
 
@@ -87,6 +86,29 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 .course-tabs-navigation {
     border-bottom: none !important;
+}
+
+.nav-underline-tabs .nav-link.active {
+    border-bottom-color: #FD9D24 !important;
+}
+.nav-item.flex-shrink-0.nav-link {
+    font-family: "Noto Kufi Arabic";
+    font-size: 13.484px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.d-flex.flex-column.flex-grow-1 {
+    background: #F3F3F3 !important;
+}
+
+.sequence-container.d-inline-flex.flex-row {
+    background: #FFF !important;
+}
+
+.position-relative.d-flex.align-items-start {
+    background: #FFF !important;
 }
 
 
