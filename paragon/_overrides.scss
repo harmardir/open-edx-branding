@@ -117,5 +117,27 @@ span.d-block.m-0.font-weight-bold.course-title {
     }
 }
 
+nav[aria-label="breadcrumb"] {
+    color: var(--Blue-Dark, #06263D);
+    text-align: right;
+    font-family: "Noto Kufi Arabic" !important;
+    font-size: 12.135px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.unit h1 {
+    color: var(--Blue-Dark, #06263D);
+    text-align: right;
+    font-family: "Lateef" !important;
+    font-size: 33.709px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 
 
