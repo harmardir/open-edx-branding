@@ -111,5 +111,11 @@ span.d-block.m-0.font-weight-bold.course-title {
     background: #FFF !important;
 }
 
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1440px !important;
+    }
+}
+
 
 
