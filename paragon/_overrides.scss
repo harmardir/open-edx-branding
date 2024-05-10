@@ -149,5 +149,24 @@ nav[aria-label="breadcrumb"] {
     text-align: right !important;
 }
 
+[dir=rtl] .unit h1 {
+    text-align: right !important;
+}
+
+
+ .svg-inline--fa path {
+    fill: #D73E2D !important;
+  }
+
+.pgn__stateful-btn {
+    color: #D73E2D !important;
+    font-family: 'Noto Kufi Arabic' !important;
+}
+
+.container-xl {
+    padding: 20px !important;
+}
+
+
 
 
