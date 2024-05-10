@@ -147,6 +147,8 @@ nav[aria-label="breadcrumb"] {
     line-height: normal;
     text-transform: capitalize;
     text-align: right !important;
+    width: max-content !important;
+    background-color: #E7EFD5 !important;
 }
 
 [dir=rtl] .unit h1 {
@@ -154,7 +156,7 @@ nav[aria-label="breadcrumb"] {
 }
 
 
- .svg-inline--fa path {
+ .svg-inline--fa.fa-bookmark path {
     fill: #D73E2D !important;
   }
 
@@ -165,6 +167,11 @@ nav[aria-label="breadcrumb"] {
 
 .container-xl {
     padding: 20px !important;
+}
+
+.xmodule_display.xmodule_HtmlBlock p {
+    color: #06263D !important;
+    font-family: 'Noto Kufi Arabic' !important;
 }
 
 
