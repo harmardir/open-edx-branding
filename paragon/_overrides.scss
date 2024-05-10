@@ -174,11 +174,6 @@ nav[aria-label="breadcrumb"] {
     font-family: 'Noto Kufi Arabic' !important;
 }
 
-/* Add arrows before the content of each list item except the first one */
-.list-unstyled li:not(:first-child)::before {
-    content: '\2192' !important;
-    margin: 0 5px;
-}
 
 
 
