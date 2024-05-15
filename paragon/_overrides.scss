@@ -164,8 +164,17 @@ nav[aria-label="breadcrumb"] {
     font-family: 'Noto Kufi Arabic' !important;
 }
 
-.container-xl {
-    padding: 20px !important;
+.sequence-container .sequence.w-100 {
+    padding: 20px;
+}
+
+.position-relative.d-flex.align-items-start {
+    padding: 10px;
+}
+
+.text-primary {
+    font-size: 16px;
+    color: #06263D !important;
 }
 
 .xmodule_display.xmodule_HtmlBlock p {
