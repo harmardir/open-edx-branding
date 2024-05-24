@@ -150,7 +150,7 @@ nav[aria-label="breadcrumb"] {
     display: inline-block;
 }
 
-    h2::before {
+  .unit h1::before {
       content: "";
       position: absolute;
       background: var(--Acinet-Green-Faded, #E7EFD5);
