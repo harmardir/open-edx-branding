@@ -136,42 +136,6 @@ nav[aria-label="breadcrumb"] {
     text-transform: capitalize;
 }
 
-.unit {
-      position: relative;
-      display: inline-block;
-    }
-
-.unit h1 {
-    color: var(--Blue-Dark, #06263D);
-    text-align: right;
-    font-family: "Lateef" !important;
-    font-size: 33.709px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-    text-align: right !important;
-    z-index: 1;
-}
-
- .unit h1::before {
-      content: "";
-      position: absolute;
-      background: var(--Acinet-Green-Faded, #E7EFD5);
-      height: 20px;
-      width: 100%;
-      bottom: -10px;
-      left: 0;
-      z-index: 0;
-    }
-
-
-
-[dir=rtl] .unit h1 {
-    text-align: right !important;
-}
-
-
  .svg-inline--fa.fa-bookmark path {
     fill: #D73E2D !important;
   }
