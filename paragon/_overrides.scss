@@ -146,9 +146,22 @@ nav[aria-label="breadcrumb"] {
     line-height: normal;
     text-transform: capitalize;
     text-align: right !important;
-    width: max-content !important;
-    background-color: #E7EFD5 !important;
+    position: relative;
+    display: inline-block;
 }
+
+    h2::before {
+      content: "";
+      position: absolute;
+      background: var(--Acinet-Green-Faded, #E7EFD5);
+      height: 7.033px;
+      width: 100%;
+      top: 70%;
+      left: 0;
+      transform: translateY(-50%);
+      z-index: -1;
+      flex-shrink: 0;
+    }
 
 [dir=rtl] .unit h1 {
     text-align: right !important;
