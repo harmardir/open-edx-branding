@@ -175,4 +175,20 @@ nav[aria-label="breadcrumb"] {
   max-width: 1440px !important;
 }
 
+.page__account-settings h1 {
+    font-family: 'Lateef' !important;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+
+.page__account-settings h2,
+.page__account-settings h6,
+.page__account-settings p,
+.page__account-settings a,
+.page__account-settings li,
+.page__account-settings button {
+  font-family: 'Noto Kufi Arabic'!important;
+}
+
 
