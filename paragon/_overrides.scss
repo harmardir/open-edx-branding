@@ -191,4 +191,12 @@ nav[aria-label="breadcrumb"] {
   font-family: 'Noto Kufi Arabic'!important;
 }
 
+.profile-page .container-fluid {
+  max-width: 1440px;
+}
+
+.container-fluid.null {
+  max-width: 1440px;
+}
+
 
