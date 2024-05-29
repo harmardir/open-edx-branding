@@ -14,8 +14,12 @@
 }
 
 .menu-content {
-    font-family: "Noto Kufi Arabic";
+    font-family: "Noto Kufi Arabic" !important;
     font-size: 16px;
+}
+
+.profile-page {
+    font-family: "Noto Kufi Arabic" !important;
 }
 
 .site-header-desktop .main-nav .nav-link:hover{
@@ -25,7 +29,7 @@
 }
 
 .site-header-desktop .main-nav .nav-link {
-    font-family: "Noto Kufi Arabic";
+    font-family: "Noto Kufi Arabic" !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
