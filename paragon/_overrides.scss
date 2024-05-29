@@ -1,8 +1,19 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-.site-header-desktop , .learning-header{
+.site-header-desktop , .learning-header, .site-header-mobile {
     background: #06263D !important;
   }
+
+@media (min-width: 768px) {
+  header a.logo {
+  height: unset;
+ }
+.menu-content .nav-link {
+  color: #06263D;
+}
+
+
+
 
 header a.logo {
   height: 84px !important;
