@@ -6,10 +6,10 @@
 
 @media (min-width: 768px) {
   header a.logo {
-  height: unset;
+  height: unset !important;
  }
 .menu-content .nav-link {
-  color: #06263D;
+  color: #06263D !important;
 }
 }
 
@@ -17,7 +17,7 @@
 
 
 header a.logo {
-  height: 84px !important;
+  height: 84px;
 }
 
 .btn.btn-outline-primary.dropdown-toggle {
