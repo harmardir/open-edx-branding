@@ -106,6 +106,10 @@ span.d-block.m-0.font-weight-bold.course-title {
 #main-content {
   background: #F3F3F3;
 }
+#main-content:has(.course-outline-tab) {
+  background-color: #fff !important;
+}
+
 
 .sequence-navigation-tabs {
     display: none !important;
