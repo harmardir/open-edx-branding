@@ -239,4 +239,14 @@ nav[aria-label="breadcrumb"] {
   max-width: 1440px;
 }
 
+// Learning MFE header
+
+.custom-nav {
+  margin-left: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  direction: rtl;
+  width: 100%;
+}
 
