@@ -276,8 +276,14 @@ nav.ml-auto.custom-nav a.nav-link {
     color: #627631 !important;
 }
 
-text-success {
+.text-success {
     color: #627631 !important;
+}
+
+.pgn__card-header-actions .btn-brand:hover {
+    border: 3px solid var(--Tomato, #D73E2D);
+    background: var(--White, #FFF);
+    color: var(--Tomato, #D73E2D);
 }
 
 
