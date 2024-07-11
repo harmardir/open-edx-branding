@@ -347,8 +347,10 @@ line-height: normal;
 text-transform: capitalize;
 }
 
+#courseware-sequenceNavigation .next-btn:disabled,
 #courseware-sequenceNavigation .previous-btn:disabled,
-#courseware-sequenceNavigation .next-btn:disabled {
+.unit-navigation .next-button:disabled,
+.unit-navigation .previous-button:disabled {
     border: 3px solid #6C7881 !important;
     background: var(--Light-grey---from-UNDP-website, #F7F7F7) !important;
     color: #6C7881 !important;
