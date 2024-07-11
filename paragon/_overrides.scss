@@ -286,6 +286,73 @@ nav.ml-auto.custom-nav a.nav-link {
     color: var(--Tomato, #D73E2D);
 }
 
+h1 {
+ color: var(--Acinet-Green, #627631);
+text-align: right;
+leading-trim: both;
+text-edge: cap;
+font-family: "Lateef";
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px;
+text-transform: capitalize;
+}
+
+h2 {
+color: var(--UNDP-Blue, #0468B1);
+text-align: right;
+font-family: "Lateef";
+font-size: 58px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+text-transform: capitalize;
+}
+
+h3 {
+color: var(--Blue-Dark, #06263D);
+text-align: right;
+font-family: "Lateef";
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+h4 {
+color: var(--Blue-Dark, #06263D);
+text-align: right;
+font-family: "Noto Kufi Arabic";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+p {
+color: var(--Blue-Dark, #06263D);
+text-align: right;
+font-family: "Noto Kufi Arabic";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+small {
+color: var(--Blue-Dark, #06263D);
+text-align: right;
+font-family: "Noto Kufi Arabic";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
 
 
 
