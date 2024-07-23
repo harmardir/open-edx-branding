@@ -351,6 +351,13 @@ text-transform: capitalize;
 }
 
 
+.btn-brand:not(:disabled):not(.disabled).active, .btn-brand:not(:disabled):not(.disabled):active, .pgn__tab_more.nav-link.active .dropdown .btn-brand.dropdown-toggle:not(:disabled):not(.disabled), .show>.btn-brand.dropdown-toggle {
+    background-color: #D73E2D !important;
+    border-color: #D73E2D !important;
+    color: #fff;
+}
+
+
 
 
 
