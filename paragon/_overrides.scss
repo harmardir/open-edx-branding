@@ -426,8 +426,10 @@ border-color: #06263D !important;
 
     .horizontal-nav {
         display: flex; /* Display horizontal nav on large screens */
-        justify-content: center; /* Center items horizontally */
         align-items: center; /* Align items vertically */
+        justify-content: flex-start;
+        width: 100%;
+    }
     }
 
     .horizontal-nav a {
