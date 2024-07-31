@@ -385,19 +385,15 @@ border-color: #06263D !important;
 
 // Learning Header
 
-/* Hide navigation links on small screens */
+/* Base styles for navigation */
 .custom-nav {
-  display: none;
+  display: none; /* Hide by default, important for small screens */
+  background-color: white; /* Background for dropdown */
+  width: 100%; /* Full width on small screens */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+  z-index: 1000; /* Ensure it appears above other content */
 }
 
-@media (min-width: 768px) {
-  /* Show navigation links on larger screens */
-  .custom-nav {
-    display: block;
-  }
-}
-
-/* Burger menu styling */
 .burger-menu {
   display: block;
   cursor: pointer;
@@ -407,10 +403,36 @@ border-color: #06263D !important;
 }
 
 @media (min-width: 768px) {
+  /* Horizontal layout for large screens */
+  .custom-nav {
+    display: flex; /* Flex to layout horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally if needed */
+    background: none; /* Clear background for large screens */
+    box-shadow: none; /* No shadow for large screens */
+  }
+
   .burger-menu {
-    display: none;
+    display: none; /* Hide burger menu on large screens */
+  }
+
+  .custom-nav a {
+    padding: 10px 15px; /* Spacing around links */
+    color: black; /* Text color for links */
+    text-decoration: none; /* Removes underline */
+    display: block; /* Needed to apply padding correctly */
   }
 }
+
+/* Styles when navigation is visible on small screens */
+.custom-nav.show {
+  display: block; /* Show when burger menu is clicked */
+  position: absolute; /* Dropdown needs to be positioned absolutely */
+  top: 100%; /* Directly below the element */
+  left: 0;
+  flex-direction: column; /* Stack items vertically on small screens */
+}
+
 
 
 
