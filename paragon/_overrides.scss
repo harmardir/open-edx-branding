@@ -385,52 +385,61 @@ border-color: #06263D !important;
 
 // Learning Header
 
-/* Base styles for navigation */
-.custom-nav {
-  display: none; /* Hide by default, important for small screens */
-  background-color: white; /* Background for dropdown */
-  width: 100%; /* Full width on small screens */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
-  z-index: 1000; /* Ensure it appears above other content */
+.burger-menu {
+    display: none; /* Hidden on larger screens */
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    color: #fff; /* Adjust color based on your theme */
 }
 
-.burger-menu {
-  display: block;
-  cursor: pointer;
-  font-size: 24px;
-  padding: 10px;
-  color: #fff;
+.dropdown-nav {
+    display: none; /* Initially hidden */
+    position: absolute;
+    width: 100%; /* Full width to match the container */
+    background-color: white; /* Background of the dropdown */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Shadow for depth (optional) */
+    z-index: 1000; /* Ensure dropdown is above other content */
+}
+
+.dropdown-nav a {
+    display: block;
+    padding: 10px;
+    color: black; /* Text color */
+    text-decoration: none; /* Removes underline */
+    border-bottom: 1px solid #ccc; /* Separates items visually */
+}
+
+.dropdown-nav a:last-child {
+    border-bottom: none; /* No border for the last item to keep clean look */
 }
 
 @media (min-width: 768px) {
-  /* Horizontal layout for large screens */
-  .custom-nav {
-    display: flex; /* Flex to layout horizontally */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally if needed */
-    background: none; /* Clear background for large screens */
-    box-shadow: none; /* No shadow for large screens */
-  }
+    .burger-menu {
+        display: none; /* Hide burger menu on large screens */
+    }
 
-  .burger-menu {
-    display: none; /* Hide burger menu on large screens */
-  }
+    .horizontal-nav {
+        display: flex; /* Display horizontal nav on large screens */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Align items vertically */
+    }
 
-  .custom-nav a {
-    padding: 10px 15px; /* Spacing around links */
-    color: black; /* Text color for links */
-    text-decoration: none; /* Removes underline */
-    display: block; /* Needed to apply padding correctly */
-  }
+    .horizontal-nav a {
+        padding: 10px 15px; /* Spacing around links */
+        text-decoration: none; /* No underline */
+        color: black; /* Text color */
+    }
 }
 
-/* Styles when navigation is visible on small screens */
-.custom-nav.show {
-  display: block; /* Show when burger menu is clicked */
-  position: absolute; /* Dropdown needs to be positioned absolutely */
-  top: 100%; /* Directly below the element */
-  left: 0;
-  flex-direction: column; /* Stack items vertically on small screens */
+@media (max-width: 767px) {
+    .burger-menu {
+        display: block; /* Show burger menu on smaller screens */
+    }
+
+    .horizontal-nav {
+        display: none; /* Hide horizontal nav on smaller screens */
+    }
 }
 
 
