@@ -463,6 +463,10 @@ border-color: #06263D !important;
     margin-inline-start: 0 !important;
 }
 
+#registration-form select option[value=""] {
+    display: none;
+}
+
 
 
 
