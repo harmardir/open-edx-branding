@@ -241,6 +241,7 @@ nav[aria-label="breadcrumb"] {
 
 #root header .logo {
   top: 0 !important;
+  margin-left: 0 !important;
 }
 
 .custom-nav {
@@ -435,7 +436,11 @@ border-color: #06263D !important;
     }
 
     .horizontal-nav a {
-        padding: 10px 15px; /* Spacing around links */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 80px;
         text-decoration: none; /* No underline */
         color: #fff;
         font-family: "Noto Kufi Arabic" !important;
