@@ -52,6 +52,10 @@ header a.logo {
     color: #06263d !important;
 }
 
+.btn-outline-primary.focus:before, .btn-outline-primary:focus:before {
+    border: 0 !important;
+}
+
 .nav-link {
     color: #fff !important;
 }
