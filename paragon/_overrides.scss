@@ -226,6 +226,7 @@ nav[aria-label="breadcrumb"] {
     font-family: 'Lateef' !important;
     font-size: 58px;
     font-weight: 400;
+    color: #06263D !important;
 }
 
 
@@ -236,6 +237,33 @@ nav[aria-label="breadcrumb"] {
 .page__account-settings li,
 .page__account-settings button {
   font-family: 'Noto Kufi Arabic'!important;
+}
+
+.small.text-muted.mt-n2 {
+     font-size: 12px !important;
+}
+
+.page__account-settings .btn-link {
+ color:#0468B1 !important;
+}
+
+.page__account-settings h6 {
+      font-size: 18px !important;
+}
+
+.page__account-settings h2 {
+
+	font-size: 20px !important;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #06263D !important;
+}
+
+.page__account-settings .jump-nav li a {
+    text-decoration: none !important;
+    color: #06263D !important;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .profile-page .container-fluid {
