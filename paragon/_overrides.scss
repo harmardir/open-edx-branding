@@ -492,6 +492,11 @@ border-color: #06263D !important;
     text-decoration: underline;
 }
 
+.footer-links: {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-links a {
     color: #FFFFFF;
     font-size: 18px;
@@ -507,6 +512,19 @@ border-color: #06263D !important;
     padding-right: 80px !important;
     padding-left: 80px !important;
 }
+
+.px-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        display: grid;
+    }
+}
+
+
 
 
 
