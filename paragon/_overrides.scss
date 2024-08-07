@@ -20,9 +20,7 @@
 }
 
 .site-header-desktop .main-nav .nav-link:hover{
-    background:none !important;
-    text-decoration: underline;
-    text-underline-offset: 5px;
+    border-bottom: 2px solid #FFF;
 }
 
 .site-header-desktop .main-nav .nav-link {
@@ -31,6 +29,8 @@
     font-style: normal;
     font-weight: 700 !important;
     line-height: normal;
+    padding: 0;
+	margin-left: 80px;
 }
 
 header a.logo {
@@ -58,10 +58,6 @@ header a.logo {
 
 .nav-link {
     color: #fff !important;
-}
-
-.site-header-desktop .logo img {
-    padding-right: 50px !important;
 }
 
 .btn-brand {
