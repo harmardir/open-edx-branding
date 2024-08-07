@@ -484,15 +484,15 @@ border-color: #06263D !important;
 // MFE Footer
 
 .social-media img {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
 }
 
 .footer-link:hover {
     text-decoration: underline;
 }
 
-.footer-link a {
+.footer-links a {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
@@ -501,11 +501,11 @@ border-color: #06263D !important;
 }
 
 .footer {
-    border-top: 1px solid #06263D;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin-right: 80px;
-    margin-left: 80px;
+    border-top: 1px solid #06263D !important;
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
 }
 
 
