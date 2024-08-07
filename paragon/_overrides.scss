@@ -481,6 +481,32 @@ border-color: #06263D !important;
     display: none;
 }
 
+// MFE Footer
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Noto Kufi Arabic'!important;
+}
+
+.footer {
+    border-top: 1px solid #06263D;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
 
 
 
