@@ -23,14 +23,19 @@
     border-bottom: 2px solid #FFF;
 }
 
+.site-header-desktop .logo {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
 .site-header-desktop .main-nav .nav-link {
     font-family: "Noto Kufi Arabic" !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 700 !important;
     line-height: normal;
-    padding: 0;
-	margin-left: 80px;
+    padding: 0 !important;
+    margin-left: 80px;
 }
 
 header a.logo {
