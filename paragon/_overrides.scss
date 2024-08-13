@@ -131,8 +131,8 @@ background-color: #fff !important;
 }
 
 .collapsible-trigger {
-    border-bottom: 1px solid #E7EFD5;
-    border-radius: unset;
+    border-bottom: 1px solid #E7EFD5 !important;
+    border-radius: unset !important;
 }
 
 /*
@@ -576,7 +576,14 @@ border-color: #06263D !important;
 @media (max-width: 768px) {
     .footer-links {
         display: grid;
+	margin-right: 8px;
     }
+   .container-fluid {
+	flex-direction: column;
+	}
+.social-media {
+	padding-top: 30px;
+	}
 }
 
 
