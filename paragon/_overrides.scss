@@ -588,6 +588,15 @@ border-color: #06263D !important;
 	}
 }
 
+@media (min-width: 769px) {
+footer.footer .container-fluid {
+        align-items: center;
+        align-content: center;
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+}
+
 
 // Auth MFE
 
