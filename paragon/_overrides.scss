@@ -618,6 +618,42 @@ footer.footer .container-fluid {
 	opacity: 1 !important;
 }
 
+// Course Outline
+
+.collapsible-card-lg .collapsible-body, .collapsible-card-lg .collapsible-trigger {
+    padding: 8px 0px;
+}
+ 
+.collapsible-trigger {
+    margin-top: -10px;
+}
+ 
+ 
+.collapsible-body {
+    /* padding: 0px !important; */
+    padding-bottom: 0px !important;
+}
+ 
+li.ml-4 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e7efd5;
+    padding-top: 4px;
+}
+ 
+ 
+.pt-2, .py-2 {
+    padding-top: 0px !important;
+    padding-bottom: none !important;
+}
+.mt-2, .my-2 {
+    margin-top: 0px !important;
+}
+ 
+ 
+.border-top {
+    border-top: 0px solid #ccc !important;
+}
+
 
 
 
