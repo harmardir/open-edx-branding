@@ -410,6 +410,12 @@ line-height: normal;
     font-weight: 700;
 }
 
+// Hide the help text in learning header
+
+div.text-gray-700.mr-3 {
+    display: none !important;
+}
+
 .discussion-module {
     font-family: "Noto Kufi Arabic" !important;
 }
