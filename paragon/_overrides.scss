@@ -665,6 +665,20 @@ li.ml-4 {
     border-top: 0px solid #ccc !important;
 }
 
+// Discussions MFE
+
+.nav-pills .nav-link.active, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .nav-pills .show>.nav-link, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle {
+    background-color: #0a3055;
+    color: #fff !important;
+}
+
+.nav-pills .nav-link, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle {
+    color: #0A3055 !important;
+}
+
+
+
+
 
 
 
