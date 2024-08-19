@@ -10,6 +10,28 @@
 }
 }
 
+.site-header-mobile {
+	height: unset;
+}
+
+.site-header-mobile img {
+	height: 84px;
+}
+.site-header-mobile .justify-content-end {
+  order: 3;
+  width: 40px !important;
+}
+
+.site-header-mobile .justify-content-start {
+  order: 2;
+  justify-content: end !important;
+}
+
+.site-header-mobile .justify-content-center {
+  order: 1;
+}
+
+
 .menu-content {
     font-family: "Noto Kufi Arabic" !important;
     font-size: 16px;
