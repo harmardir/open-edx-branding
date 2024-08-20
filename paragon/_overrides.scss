@@ -137,6 +137,28 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+@media (max-width: 645px) {
+    .unit h1:before {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 515px) {
+    button.notification-button {
+        display: none;
+    }
+}
+
+.sequence-container.flex-row {
+    width: 100% !important;
+}
+
+course-wrapper main {
+	padding: 0 !important;
+}
+
+
+
 #main-content {
   background: #F3F3F3;
 }
