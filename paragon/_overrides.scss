@@ -11,11 +11,11 @@
 }
 
 .site-header-mobile {
-	height: unset;
+	height: unset !important;
 }
 
 .site-header-mobile img {
-	height: 84px;
+	height: 84px !important;
 }
 .site-header-mobile .justify-content-end {
   order: 3;
