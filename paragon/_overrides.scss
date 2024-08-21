@@ -139,6 +139,12 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+
+// fix the empty space after footer in dates tab
+ul.list-unstyled.m-0.mt-4.pt-2 {
+    padding-bottom: 175px;
+}
+
 .btn .btn-icon-after {
    margin-inline-start: 0 !important;
 }
