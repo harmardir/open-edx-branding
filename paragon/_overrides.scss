@@ -31,6 +31,12 @@
   order: 1;
 }
 
+.justify-content-center {
+    justify-content: unset !important;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
 
 .menu-content {
     font-family: "Noto Kufi Arabic" !important;
@@ -136,6 +142,14 @@ span.d-block.m-0.font-weight-bold.course-title {
 }
 
 // Learning MFE
+
+.btn .btn-icon-after {
+   margin-inline-start: 0 !important;
+}
+
+.btn .btn-icon-before {
+    margin-inline-end: 0 !important;
+}
 
 @media (max-width: 645px) {
     .unit h1:before {
