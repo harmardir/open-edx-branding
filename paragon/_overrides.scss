@@ -145,7 +145,7 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 @media (max-width: 575px) and (min-width: 515px) {
     button.notification-button {
-        display: none;
+        display: none !important;
     }
 }
 
