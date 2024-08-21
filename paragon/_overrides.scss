@@ -364,6 +364,10 @@ nav[aria-label="breadcrumb"] {
 
 // Learning MFE header
 
+header.learning-header .container-xl {
+    padding-top: 8px !important;
+}
+
 #root header .logo {
   top: 0 !important;
   margin-right: 0 !important;
