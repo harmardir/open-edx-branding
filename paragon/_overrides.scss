@@ -29,14 +29,10 @@
 
 .site-header-mobile .justify-content-center {
   order: 1;
+  justify-content: unset !important;
+  padding-right: 10px;
+  padding-bottom: 8px;
 }
-
-.justify-content-center {
-    justify-content: unset !important;
-    padding-right: 10px;
-    padding-bottom: 8px;
-}
-
 
 .menu-content {
     font-family: "Noto Kufi Arabic" !important;
