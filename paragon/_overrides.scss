@@ -146,6 +146,18 @@ span.d-block.m-0.font-weight-bold.course-title {
 // Learning MFE
 
 
+// remove padding for small screens
+@media (max-width: 600px) 
+  .course-wrapper main {
+    padding: 0 !important;
+  }
+
+.unit-container {
+    padding: 0 10px 2rem !important;
+}
+
+}
+
 // fix the empty space after footer in dates tab
 ul.list-unstyled.m-0.mt-4.pt-2 {
     padding-bottom: 175px;
