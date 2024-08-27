@@ -147,7 +147,7 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 
 // remove padding for small screens
-@media (max-width: 600px) 
+@media (max-width: 600px) {
   .course-wrapper main {
     padding: 0 !important;
   }
