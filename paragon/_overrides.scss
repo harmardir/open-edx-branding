@@ -149,6 +149,17 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+.pgn__menu-item:hover {
+    background: none !important;
+    border-color: inherit !important;
+    color: inherit !important;
+}
+
+.pgn__menu-item:not(:disabled):not(.disabled):active {
+    background: none !important;
+    border-color: inherit !important;
+    color: inherit !important;
+}
 
 // remove padding for small screens
 @media (max-width: 600px) {
