@@ -149,6 +149,15 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+.pgn__menu-select-trigger-btn {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+nav[aria-label=breadcrumb] {
+	font-size: 14px !important;
+}
+
 .pgn__menu-item:hover {
     background: none !important;
     border-color: inherit !important;
