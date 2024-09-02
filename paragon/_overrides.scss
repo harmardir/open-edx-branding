@@ -153,6 +153,10 @@ fade.alert-content.alert.alert-light.show[data-testid="private-course-alert"] {
     padding-bottom: 200px !important;
 }
 
+.horizontal-nav + div {
+   display: none !important;
+}
+
 .pgn__menu-select-trigger-btn {
   cursor: not-allowed !important;
   pointer-events: none !important;
