@@ -149,6 +149,10 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+fade.alert-content.alert.alert-light.show[data-testid="private-course-alert"] {
+    padding-bottom: 200px !important;
+}
+
 .pgn__menu-select-trigger-btn {
   cursor: not-allowed !important;
   pointer-events: none !important;
