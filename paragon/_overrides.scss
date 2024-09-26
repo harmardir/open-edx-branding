@@ -1,11 +1,11 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 .site-header-desktop , .learning-header, .site-header-mobile {
-    background: #06263D !important;
+    background: #FFF !important;
   }
 
 .global-header.slim {
-    background-color: #06263D !important;
+    background-color: #FFF !important;
 }
 
 header.site-header-mobile {
@@ -707,6 +707,7 @@ footer.footer .container-fluid {
     padding-bottom: 45px !important;
     padding-right: 80px !important;
     padding-left: 80px !important;
+    background-color: #0468B1 !important;
 }
 
 .px-4 {
