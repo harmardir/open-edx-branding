@@ -819,9 +819,19 @@ li.ml-4 {
 
 /* Main navigation styles */
 
-.pgn__dropdown {
+[dir=rtl] .pgn__dropdown {
     margin-right: auto;
 }
+
+.learning-header .container-xl {
+    margin: 0 !important;
+}
+
+.main-menu.ml-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .nav {
   list-style: none;
   padding: 0;
@@ -829,19 +839,19 @@ li.ml-4 {
 
 .main-menu .nav-item {
   position: relative;
-  margin-right: 20px;
 }
 
 .main-menu .nav-link {
   text-decoration: none;
-  padding: 10px 15px;
   display: block;
+  padding: 0 !important;
   color: #06263d !important;
   font-family: 'Noto Kufi Arabic' !important;
   font-size: 18px !important;
   font-style: normal;
   font-weight: 700 !important;
   line-height: normal;
+  margin: 0 80px 0 0 !important;
 }
 
 .nav .nav-item .nav-link:hover {
@@ -872,8 +882,9 @@ li.ml-4 {
   text-decoration: none;
   font-family: 'Noto Kufi Arabic' !important;
   color: #06263d !important;
-  min-width: 400px;
+  min-width: 410px;
   font-size:16px;
+  ont-weight: 700;
 }
 
 
