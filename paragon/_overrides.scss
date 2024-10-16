@@ -954,7 +954,7 @@ li.ml-4 {
 .burger-bar {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: #06263D !important;
   margin: 5px 0;
 }
 
@@ -963,6 +963,23 @@ li.ml-4 {
   font-size: 24px;
   color: black;
   cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .learning-header .container-xl {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+
+.mobile-menu {
+	display: none !important;
+	}
+.burger-bar {
+ display: block !important;
+  background-color: #06263D !important;
+  left: 90px !important;
+ 
+}
 }
 
 
