@@ -815,6 +815,129 @@ li.ml-4 {
     color: #0A3055 !important;
 }
 
+// Learning MFE Header
+
+/* Main navigation styles */
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav .nav-item {
+  position: relative;
+  margin-right: 20px;
+}
+
+.nav .nav-item .nav-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  color: #06263d !important;
+  font-family: 'Noto Kufi Arabic' !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+
+.nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #06263d;
+}
+
+/* Submenu styles */
+.has-submenu .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid #ddd;
+  min-width: 200px;
+}
+
+/* Show submenu on hover */
+.has-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu-item {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.submenu-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Burger menu styles */
+.burger-menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger-bar {
+  background-color: #000;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+/* Show mobile menu when burger icon is clicked */
+.mobile-menu .nav {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu .nav-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.mobile-menu .nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.mobile-menu .submenu {
+  display: none;
+}
+
+.mobile-menu .has-submenu:hover .submenu {
+  display: block;
+}
+
+.mobile-menu .submenu-item {
+  padding-left: 20px;
+  padding: 10px;
+}
+
+
+
+
 
 
 
