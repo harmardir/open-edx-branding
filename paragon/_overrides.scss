@@ -970,9 +970,12 @@ li.ml-4 {
     padding-right: 12px !important;
     padding-left: 12px !important;
   }
+.main-menu {
+	display:none !important;
+	}
 
 .mobile-menu {
-	display: none !important;
+	display: block !important;
 	}
 .burger-bar {
  display: block !important;
