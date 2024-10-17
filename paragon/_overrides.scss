@@ -962,12 +962,6 @@ li.ml-4 {
   cursor: pointer;
 }
 
-.burger-bar {
-  width: 25px;
-  height: 3px;
-  background-color: #06263D !important;
-  margin: 5px 0;
-}
 
 /* X (close button) styling */
 .close-icon {
@@ -985,16 +979,30 @@ li.ml-4 {
 
 
 @media (max-width: 768px) {
-	.burger-bar {
-  display: block !important;
-  position: absolute !important;
-  right:0;		
-}
+
   .burger-menu-icon {
 	  position: absolute;
     	  display: block !important;
     	  right: 90px;
   
+}
+
+	.burger-menu-icon .burger-bar:nth-child(1) {
+  display: block !important;
+  position: absolute !important;
+  right:0;	
+}
+
+.burger-menu-icon .burger-bar:nth-child(2) {
+  display: block !important;
+  position: absolute !important;
+  right:0;	
+}
+
+.burger-menu-icon .burger-bar:nth-child(3) {
+ display: block !important;
+  position: absolute !important;
+  right:0;	
 }
 
 }
