@@ -976,8 +976,9 @@ li.ml-4 {
 	}
 .burger-bar {
  display: block !important;
-  background-color: #06263D !important;
-  left: 90px !important;
+ background-color: #06263D !important;
+ position: absolute !important;
+ right: 90px !important;
  
 }
 }
