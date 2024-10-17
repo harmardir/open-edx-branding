@@ -999,6 +999,18 @@ li.ml-4 {
 
 }
 
+.menu-content {
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    background-color: #FFFFFF;
+    padding: 10px;
+    top: calc(100% + 18px);
+    z-index: 1;
+    margin: 0;
+    min-width: 410px;
+}
+
 
 
 
