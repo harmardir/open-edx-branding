@@ -110,8 +110,8 @@ header a.logo {
 }
 
 .btn-outline-primary:hover {
-    border-color: #FFFF !important;
-    color: none !important;
+    border-color: unset !important;
+    color: unset!important;
 }
 
 .btn-outline-primary.focus:before, .btn-outline-primary:focus:before {
