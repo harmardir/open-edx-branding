@@ -122,11 +122,11 @@ header a.logo {
 }
 
 .btn-brand {
-    background-color: #D73E2D;
-    border-color: #D73E2D;
-    color: #fff;
+    background-color:#FD9D24;
+    border: unset;
+    color: #06263D;
     font-family: "Noto Kufi Arabic" !important;
-    border-radius: 46px;
+    border-radius: unset;
     height: 55px;
     justify-content: center;
     align-items: center;
@@ -134,13 +134,6 @@ header a.logo {
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
-}
-
-.btn-brand:hover {
-    background-color: #D73E2D;
-    border-color: #D73E2D;
-    color: #fff;
-    font-family: "Noto Kufi Arabic" !important;
 }
 
 .text-gray-700 {
@@ -463,12 +456,6 @@ nav.ml-auto.custom-nav a.nav-link {
 
 .text-success {
     color: #627631 !important;
-}
-
-.pgn__card-header-actions .btn-brand:hover {
-    border: 3px solid var(--Tomato, #D73E2D);
-    background: var(--White, #FFF);
-    color: var(--Tomato, #D73E2D);
 }
 
 h1 {
