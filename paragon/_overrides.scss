@@ -98,8 +98,9 @@ header a.logo {
 }
 
 .btn.btn-outline-primary.dropdown-toggle {
-    border-color: #06263d;
-    color: #06263d;
+    border-color: #FFFF;
+    color: #FFFF;
+    border-radius: unset !important;
 }
 
 .menu-trigger {
@@ -835,7 +836,7 @@ li.ml-4 {
   text-decoration: none;
   display: block;
   padding: 0 !important;
-  color: #06263d !important;
+  color: #FFFF !important;
   font-family: 'Noto Kufi Arabic' !important;
   font-size: 18px !important;
   font-style: normal;
