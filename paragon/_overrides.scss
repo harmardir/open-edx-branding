@@ -137,6 +137,12 @@ header a.logo {
     line-height: normal;
 }
 
+.btn-brand:hover {
+    background-color: unset !important;
+    border-color: unset !important;
+    color: unset !important;
+}
+
 .text-gray-700 {
     color: #fff !important;
 }
