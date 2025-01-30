@@ -437,8 +437,15 @@ header.learning-header {
 
 
 #root header .logo {
-  top: 0 !important;
+  top: 25px;
   margin-right: 0 !important;
+}
+
+@media (max-width: 991.98px) {
+#root header .logo {
+  top: 0px !important;
+}
+
 }
 
 .custom-nav {
@@ -852,7 +859,7 @@ li.ml-4 {
 }
 
 .nav .nav-item .nav-link:hover {
-    border-bottom: 2px solid #06263d;
+    border-bottom: 2px solid #FFF;
 }
 
 /* Submenu styles */
@@ -896,7 +903,7 @@ li.ml-4 {
 }
 
 .burger-bar {
-  background-color: #06263D !important;
+  background-color: #FFFF !important;
   height: 3px;
   width: 25px;
   margin: 3px 0;
