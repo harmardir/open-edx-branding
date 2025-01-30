@@ -85,12 +85,16 @@ main {
 
 .site-header-desktop .main-nav .nav-link {
     font-family: "Noto Kufi Arabic" !important;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700 !important;
     line-height: normal;
-    padding: 0 !important;
+    padding: 26px 12px !important;
     margin-left: 80px;
+}
+
+.highlight-background {
+  background-color: #47542A;
 }
 
 header a.logo {
