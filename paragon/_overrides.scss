@@ -697,21 +697,23 @@ border-color: #06263D !important;
 /* General Footer Styling */
 .footer {
   display: flex;
-  flex-direction: column;
+  lex-direction: row-reverse !important;
   justify-content: space-between;
   align-items: center;
-  background-color: #6b8e23; /* Olive Green */
-  color: white;
-  padding: 2rem 1rem;
+  background-color:#627631; 
+  color: #FFF !important;
+  padding: 2rem 1rem !important;
 }
 
-.footer.rtl {
-  direction: rtl;
+.footer img {
+  width: 40px;
 }
+
+
 
 @media (min-width: 768px) {
   .footer {
-    flex-direction: row;
+    flex-direction: column;;
     padding: 2rem 4rem;
   }
 }
@@ -736,9 +738,14 @@ border-color: #06263D !important;
 }
 
 .footer-link {
-  color: #add8e6; /* Light Blue */
+  color: #FFFF;
   text-decoration: none;
   margin: 0 0.5rem;
+  font-family: 'Noto Kufi Arabic';
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .footer-link:hover {
@@ -764,15 +771,13 @@ border-color: #06263D !important;
 }
 
 .footer-icon {
-  width: 64px;
-  height: 64px;
   margin-bottom: 1rem;
 }
 
 .footer-email {
   font-size: 1rem;
   font-weight: bold;
-  color: #add8e6; /* Light Blue */
+  color: #FFFF;
 }
 
 
