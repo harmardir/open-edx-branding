@@ -697,16 +697,20 @@ border-color: #06263D !important;
 /* General Footer Styling */
 .footer {
   display: flex;
-  lex-direction: row-reverse !important;
+  flex-direction: row-reverse !important;
   justify-content: space-between;
   align-items: center;
-  background-color:#627631; 
+  background-color:#627631 !important; 
   color: #FFF !important;
   padding: 2rem 1rem !important;
 }
 
 .footer img {
   width: 40px;
+}
+
+.footer p {
+  color: #FFFF !important;
 }
 
 
