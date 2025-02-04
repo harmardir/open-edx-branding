@@ -216,6 +216,11 @@ nav[aria-label=breadcrumb] {
 
 }
 
+.unit-container {
+    max-width: 1200px !important;
+}
+
+
 // fix the empty space after footer in dates tab
 ul.list-unstyled.m-0.mt-4.pt-2 {
     padding-bottom: 175px;
