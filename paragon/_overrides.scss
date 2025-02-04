@@ -720,11 +720,11 @@ border-color: #06263D !important;
 
 
 
-@media (min-width: 991px) {
+@media (max-width: 992px) {
   .footer {
     flex-direction: column !important;
     padding: 2rem 4rem;
-    align-text: center;
+    text-align: center;
   }
 }
 
