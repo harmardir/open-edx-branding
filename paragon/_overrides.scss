@@ -715,10 +715,11 @@ border-color: #06263D !important;
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .footer {
-    flex-direction: column;;
+    flex-direction: column !important;
     padding: 2rem 4rem;
+    align-text: center;
   }
 }
 
