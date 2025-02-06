@@ -1,5 +1,109 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+// Typography styles
+
+// Desktop styles
+h1 {
+  font-family: "Scheherazade New";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: "Scheherazade New";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+h3 {
+  font-family: "Scheherazade New";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+h4 {
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45.53px;
+}
+
+.instructions {
+  font-family: "Noto Kufi Arabic";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34.15px;
+}
+
+p {
+  font-family: "Noto Kufi Arabic";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34.15px;
+}
+
+.caption {
+  font-family: "Noto Kufi Arabic";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.56px;
+}
+
+// Mobile styles
+@media (max-width: 768px) {
+  h1 {
+    font-family: "Scheherazade New";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-family: "Scheherazade New";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-family: "Scheherazade New";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  h4 {
+    font-family: "Noto Kufi Arabic";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.15px;
+  }
+
+  .instructions {
+    font-family: "Noto Kufi Arabic";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30.35px;
+  }
+
+  p {
+    font-family: "Noto Kufi Arabic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.35px;
+  }
+
+  .caption {
+    font-family: "Noto Kufi Arabic";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.76px;
+  }
+}
 .site-header-desktop , .learning-header, .site-header-mobile {
     background: #627631 !important;
     border: none;
