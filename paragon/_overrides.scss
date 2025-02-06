@@ -1003,6 +1003,12 @@ li.ml-4 {
   line-height: normal;
   margin-left: 40px !important;
 }
+@media (max-width: 1200px) {
+.main-menu .nav-link {
+  margin-left: 10px !important;
+}
+
+}
 
 .nav .nav-item .nav-link:hover {
    text-decoration: underline !important;
