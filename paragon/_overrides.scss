@@ -152,7 +152,7 @@ header a.logo {
 }
 
 .btn-brand:hover {
-    background-color: unset !important;
+    background-color: #DD7836 !important;
     border-color: unset !important;
     color: unset !important;
 }
@@ -306,6 +306,7 @@ background-color: #fff !important;
 .course-tabs-navigation {
     border-bottom: none !important;
     background: #F3F3F3;
+    padding-top: 25px;
 }
 
 .nav-underline-tabs .nav-link.active {
