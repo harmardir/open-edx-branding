@@ -711,6 +711,33 @@ border-color: #06263D !important;
  font-family: 'Noto Kufi Arabic'!important;
 }
 
+.nav-pills .nav-link, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle{
+border-radius: usnet !important;
+
+}
+
+.nav-pills .nav-link.active , .nav-pills .nav-link:hover {
+background: #06263D !important;
+border: 1px solid #FFFFFF !important;
+background: #FFFFFF !important;
+font-family: "Noto Kufi Arabic";
+font-size: 16px;
+font-weight: 700;
+line-height: 30.35px;
+text-align: center;
+}
+
+.nav-pills .nav-link {
+background: #F7F7F7 !important;
+border: 1px solid #06263D !important;
+background: #06263D !important;
+font-family: "Noto Kufi Arabic";
+font-size: 16px;
+font-weight: 700;
+line-height: 30.35px;
+text-align: center;
+}
+
 // Learning Header
 
 .burger-menu {
