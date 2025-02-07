@@ -253,7 +253,8 @@ header a.logo {
     color: #06263D;
     font-family: "Noto Kufi Arabic" !important;
     border-radius: unset;
-    height: 55px;
+    height: 40px;
+    width: 164px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -724,31 +725,29 @@ border-color: #06263D !important;
  font-family: 'Noto Kufi Arabic'!important;
 }
 
-.nav-pills .nav-link, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle{
-border-radius: usnet !important;
-
+.nav .nav-pills {
+   gap: 10px;
 }
 
-.nav-pills .nav-link.active , .nav-pills .nav-link:hover {
-background: #06263D !important;
-border: 1px solid #FFFFFF !important;
+.nav-pills .nav-link:hover {
+color: #06263D !important;
+border: 1px solid #06263D !important;
 background: #FFFFFF !important;
-font-family: "Noto Kufi Arabic";
-font-size: 16px;
-font-weight: 700;
-line-height: 30.35px;
-text-align: center;
 }
 
+.nav-pills .nav-link.active,
 .nav-pills .nav-link {
 background: #F7F7F7 !important;
-border: 1px solid #06263D !important;
+border-radius: unset !important;
+border: 1px solid #FFFF !important;
 background: #06263D !important;
 font-family: "Noto Kufi Arabic";
 font-size: 16px;
 font-weight: 700;
 line-height: 30.35px;
 text-align: center;
+width: 164px;
+height: 40px;
 }
 
 // Learning Header
