@@ -3,6 +3,7 @@
 
 // Typography styles
 
+
 // Desktop styles
 h1 {
   font-family: "Scheherazade New";
@@ -850,96 +851,118 @@ height: 40px;
 
 // MFE Footer
 
-/* General Footer Styling */
-.footer {
-  display: flex;
-  flex-direction: row-reverse !important;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#627631 !important; 
-  color: #FFF !important;
-  padding: 2rem 1rem !important;
-}
-
-.footer img {
-  width: 40px;
-}
-
-.footer p {
-  color: #FFFF !important;
-}
-
-
-
-@media (max-width: 992px) {
-  .footer {
-    flex-direction: column !important;
-    padding: 2rem 4rem;
-    text-align: center;
-  }
-}
-
-/* Right Section (Copyright and Links) */
-.footer-right {
+/* Base Footer Styles */
+.site-footer {
+  background-color: ##627631;
+  color: white;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
+/* Desktop Layout */
 @media (min-width: 768px) {
-  .footer-right {
-    align-items: flex-end;
+  .site-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    padding: 1.5rem 4rem; /* Adjust padding for alignment */
+  }
+}
+
+/* Social Media & Contact Section */
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-contact {
+    align-items: flex-start;
+  }
+}
+
+.footer-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Email */
+.footer-email {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Footer Links & Copyright */
+.footer-links-container {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-links-container {
+    margin-top: 0;
     text-align: right;
   }
 }
 
+/* Footer Links */
 .footer-links {
-  margin-top: 1rem;
+  font-size: 0.875rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .footer-links {
+    justify-content: flex-end;
+  }
 }
 
 .footer-link {
-  color: #FFFF;
   text-decoration: none;
-  margin: 0 0.5rem;
-  font-family: 'Noto Kufi Arabic';
-  text-align: right;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
+  color: white;
+  font-weight: 600;
 }
 
 .footer-link:hover {
   text-decoration: underline;
 }
 
+/* Separator */
+.footer-separator {
+  color: white;
+}
+
+/* Copyright Text */
 .footer-copyright {
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
 }
 
-/* Left Section (Icon and Email) */
-.footer-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* Mobile-Specific Styling */
+@media (max-width: 767px) {
+  .footer-email {
+    font-size: 1.2rem;
+  }
 
-@media (min-width: 768px) {
-  .footer-left {
-    align-items: flex-start;
+  .footer-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-copyright {
+    text-align: center;
   }
 }
 
-.footer-icon {
-  margin-bottom: 1rem;
-}
-
-.footer-email {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #FFFF;
-}
 
 
 
