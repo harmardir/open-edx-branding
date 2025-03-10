@@ -570,6 +570,24 @@ nav[aria-label="breadcrumb"] {
 
 // Learning MFE header
 
+/* Dropdown menu styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+}
+
+.dropdown-menu.open {
+  display: block;
+}
+
+
 header.learning-header {
     border: none;
     overflow: visible;
