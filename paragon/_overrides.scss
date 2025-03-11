@@ -212,6 +212,13 @@ main {
   padding-left: 28px !important;
 }
 
+.highlight-background a {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+}
+
 header a.logo {
   height: 84px !important;
 }
@@ -583,7 +590,7 @@ nav[aria-label="breadcrumb"] {
     padding: 10px 15px;
     font-weight: 700;
     font-size: 16px;
-    text-align: right;
+    text-align: left;
     color: #FFFFFF !important;
     font-family: 'Noto Kufi Arabic' !important;
 }
@@ -610,6 +617,8 @@ background-color: #2E3719 !important;
   border-radius: unset !important;
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
+  padding: 0;
+  margin: 0;
 }
 
 .custom-chevron-down {
@@ -935,7 +944,7 @@ height: 40px;
 
 .footer-title {
     color: white !important;
-    text-align: right;
+    text-align: left;
     font-weight: 700;
 }
 
