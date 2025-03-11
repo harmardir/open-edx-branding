@@ -933,6 +933,28 @@ height: 40px;
   gap: 0.5rem;
 }
 
+.footer-title p {
+    color: white;
+    text-align: right;
+    font-weight: 700;
+}
+
+.footer-contact-title p {
+   color: white;
+}
+
+.footer-email-container , .footer-social a {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-email-container img {
+   width: 24px;
+   height: 15px;
+}
+
 @media (min-width: 768px) {
   .footer-contact {
     align-items: flex-start;
