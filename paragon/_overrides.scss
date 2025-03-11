@@ -933,13 +933,13 @@ height: 40px;
   gap: 0.5rem;
 }
 
-.footer-title p {
-    color: white;
+.footer-title {
+    color: white !important;
     text-align: right;
     font-weight: 700;
 }
 
-.footer-contact-title p {
+.footer-contact-title {
    color: white;
 }
 
@@ -948,6 +948,7 @@ height: 40px;
     flex-direction: row-reverse;
     gap: 16px;
     align-items: center;
+    color: white !important;
 }
 
 .footer-email-container img {
