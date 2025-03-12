@@ -635,6 +635,18 @@ background-color: #2E3719 !important;
   margin-left: 5px;
 }
 
+.dropdown-trigger {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white; /* Match your existing design */
+}
+
+.dropdown-trigger .custom-chevron-down {
+  margin-left: 5px;
+}
+
 
 header.learning-header {
     border: none;
