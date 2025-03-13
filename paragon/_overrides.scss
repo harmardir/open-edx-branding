@@ -637,34 +637,40 @@ background-color: #2E3719 !important;
 
 // MFE HEADER PROFILE & ACCOUNT//
 
-.menu-item-with-dropdown {
+.professional-courses-dropdown {
   position: relative;
   display: inline-block;
 }
 
-.custom-dropdown-menu {
+.professional-courses-dropdown .custom-chevron-down {
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.custom-professional-menu {
   display: none;
   position: absolute;
   left: 0;
   top: 100%;
-  background: #47542A;
+  background: #47542a;;
   list-style: none;
   min-width: 200px;
   z-index: 1000;
 }
 
-.menu-item-with-dropdown.open .custom-dropdown-menu {
+.professional-courses-dropdown.open .custom-professional-menu {
   display: block;
 }
 
-.custom-dropdown-item a {
+.custom-professional-item a {
   display: block;
   padding: 8px 12px;
-  color: #FFFF;
+  color: #333;
   text-decoration: none;
 }
 
-.custom-dropdown-item a:hover {
+.custom-professional-item a:hover {
   background: #2E3719;
 }
 
