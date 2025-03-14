@@ -1245,10 +1245,12 @@ li.ml-4 {
 /* Mobile menu styles */
 
 .mobile-menu .nav-link {
-  color: #06263d !important;
+  color: white !important;
   text-decoration: none;
   font-family: 'Noto Kufi Arabic' !important;
   font-size: 16px !important;
+  text-align: center;
+  border-bottom: 1px solid #2E3719;
 }
 
 .mobile-menu .submenu {
@@ -1272,10 +1274,11 @@ li.ml-4 {
   top: 100%; /* Position below header */
   left: 0;
   right: 0;
-  background-color: white;
+  background-color: #47542A;
   z-index: 999;
-  padding: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
 }
 
 .mobile-menu.open {
@@ -1301,7 +1304,7 @@ li.ml-4 {
 /* X (close button) styling */
 .close-icon {
   font-size: 24px;
-  color: black;
+  color: white !important;
   cursor: pointer;
 }
 
