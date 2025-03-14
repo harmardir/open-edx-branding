@@ -219,6 +219,10 @@ main {
     gap: 5px;
 }
 
+.nav-link.highlight-background a {
+    color: white !important;
+}
+
 header a.logo {
   height: 84px !important;
 }
