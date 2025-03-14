@@ -595,6 +595,7 @@ nav[aria-label="breadcrumb"] {
     text-align: left;
     color: #FFFFFF !important;
     font-family: 'Noto Kufi Arabic' !important;
+    list-style: none !important;
 }
 
 .learning-dropdown-menu.open .learning-dropdown-item:hover {
@@ -621,7 +622,8 @@ nav[aria-label="breadcrumb"] {
   border-bottom: 1px solid #FFFFFF;
   padding: 0;
   margin: 0;
-  left: 40px;	
+  left: 40px;
+  width: 255px;
 }
 
 .learning-chevron-down {
