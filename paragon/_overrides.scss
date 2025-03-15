@@ -132,7 +132,7 @@ header.site-header-mobile {
 
 @media (max-width: 768px) {
 .site-header-mobile .nav-link {
-  color: #06263D !important;
+  border-bottom: 1px solid #2E3719;
 }
 }
 
@@ -163,6 +163,8 @@ header.site-header-mobile {
 .menu-content {
     font-family: "Noto Kufi Arabic" !important;
     font-size: 16px;
+    background-color: #47542A !important;
+    text-align: center;
 }
 
 .profile-page {
