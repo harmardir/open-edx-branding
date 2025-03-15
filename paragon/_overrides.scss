@@ -654,11 +654,7 @@ nav[aria-label="breadcrumb"] {
   transform: rotate(-45deg); /* Default: pointing down */
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-  margin-left: 8px; /* Space between text and chevron */
-}
-
-.custom-professional-chevron.open {
-  transform: rotate(135deg); /* Rotates up when dropdown is open */
+  margin-left: 8px;
 }
 
 .custom-professional-dropdown-menu {
@@ -685,6 +681,7 @@ nav[aria-label="breadcrumb"] {
   color: #333;
   display: block;
 }
+
 
 
 
