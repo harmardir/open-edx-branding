@@ -648,8 +648,8 @@ nav[aria-label="breadcrumb"] {
   display: inline-block;
   width: 10px;
   height: 10px;
-  border-left: 2px solid #333;
-  border-bottom: 2px solid #333;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
   transform: rotate(-45deg); /* Always pointing down */
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
@@ -733,6 +733,11 @@ header.learning-header {
 nav.ml-auto.custom-nav a.nav-link {
     margin: 0px 80px 0px 0px !important;
 }
+
+.nav-link a {
+  color: white !important;
+}
+
 
 .sequence-navigation .btn.complete {
     background-color: #eef7e5;
@@ -1195,11 +1200,6 @@ li.ml-4 {
   line-height: normal;
   padding: unset;
 }
-@media (max-width: 1200px) {
-.main-menu .nav-link {
-  margin-left: 10px !important;
-}
-}
 
 .nav .nav-item .nav-link:hover {
    text-decoration: underline !important;
@@ -1364,13 +1364,6 @@ padding: 34px 10px !important;
 
 }
 
-div.menu-content:not(.dropdown-menu) {
-    background: #fff;
-    position: absolute !important;
-    top: 100% !important;
-    max-width: 410px !important;
-    left: 550px !important;
-}
 
 a.menu-trigger svg {
   display: none;
