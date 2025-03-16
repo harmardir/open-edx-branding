@@ -644,7 +644,7 @@ nav[aria-label="breadcrumb"] {
 // MFE HEADER PROFILE & ACCOUNT//
 
 /* Chevron (Dropdown Toggle) */
-.custom-professional-chevron {
+.custom-chevron-down {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -657,49 +657,38 @@ nav[aria-label="breadcrumb"] {
 }
 
 /* Dropdown Menu */
-.custom-professional-dropdown-menu {
+.custom-professional-menu {
   position: absolute;
-  background: white;
-  border: 1px solid #ddd;
+  background: #47542A;
   list-style: none;
-  padding: 10px;
+  top: 100%;
   margin: 0;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  
-  /* Smooth transition */
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-5px);
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out, visibility 0.2s;
-}
-
-/* Show dropdown when open */
-.custom-professional-dropdown-menu.open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+  padding: 0;
 }
 
 /* Dropdown Items */
-.custom-professional-dropdown-item {
-  padding: 10px 15px;
-  transition: background 0.2s ease-in-out;
+.custom-professional-item {
+  padding: 8px 16px;
+  border-bottom: 1px solid #FFFFFF;
 }
 
-.custom-professional-dropdown-item a {
-  text-decoration: none;
-  color: #333;
-  display: block;
+.custom-professional-item a {
+  text-decoration: none !important;
+    color: white !important;
 }
 
 /* Hover Effect */
-.custom-professional-dropdown-item:hover {
-  background: #f5f5f5;
+.custom-professional-item:hover {
+ background-color: #2E3719;
 }
 
+.menu-trigger:has(.professional-courses-dropdown) {
+ background: #47542A !important;
+}
 
-
-
+.professional-courses-dropdown .menu-link {
+  color: white !important;
+}
 
 // MFE HEADER PROFILE & ACCOUNT//
 
