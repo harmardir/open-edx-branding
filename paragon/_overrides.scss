@@ -1018,6 +1018,7 @@ height: 40px;
     color: white !important;
     text-align: left;
     font-weight: 700;
+    font-family: 'Noto Kufi Arabic' !important;
 }
 
 .footer-contact-title {
@@ -1061,6 +1062,13 @@ height: 40px;
   margin-top: 1rem;
 }
 
+.footer-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
 @media (min-width: 768px) {
   .footer-links-container {
     margin-top: 0;
@@ -1100,9 +1108,7 @@ height: 40px;
 
 /* Copyright Text */
 .footer-copyright {
-  margin-top: 0.75rem;
   font-size: 14px;
-  line-height: 1.5;
   color: #FFFF;
 }
 
