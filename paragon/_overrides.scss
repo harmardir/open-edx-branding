@@ -834,7 +834,6 @@ border: 1px solid #06263D !important;
 background: #FFFFFF !important;
 }
 
-.nav-pills .nav-link.active,
 .nav-pills .nav-link {
 background: #F7F7F7 !important;
 border-radius: unset !important;
@@ -847,6 +846,23 @@ line-height: 30.35px;
 text-align: center;
 width: 164px;
 height: 40px;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+}
+
+.btn-outline-dark {
+    border-color: #06263D;
+    color: #06263D;
+    font-family: 'Noto Kufi Arabic' !important;
+    border-radius: unset;
+}
+
+.btn-outline-dark:hover {
+    background-color: #06263D !important;
+    border-color: white !important;
+    color: white !important;
 }
 
 // Learning Header
