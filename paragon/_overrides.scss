@@ -301,6 +301,14 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+.row.w-100.m-0.mt-3.mb-4.justify-content-between h1 {
+    display: none;
+}
+
+.donut-hole.complete-stroke, .donut-ring.complete-stroke, .donut-segment.complete-stroke {
+    stroke: #627631;
+}
+
 .fade.alert-content.alert.alert-light.show {
     padding-bottom: 200px !important;
 }
@@ -753,18 +761,18 @@ nav.ml-auto.custom-nav a.nav-link {
 }
 
 h1 {
-color: var(--Acinet-Green, #627631);
+color: #627631;
 leading-trim: both;
 text-edge: cap;
 font-family: "Noto Kufi Arabic";
-font-size: 84px;
+font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: 100px;
 }
 
 h2 {
-color: var(--UNDP-Blue, #0468B1);
+color:#627631;
 font-family: "Noto Kufi Arabic";
 font-size: 58px;
 font-style: normal;
