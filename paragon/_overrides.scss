@@ -986,6 +986,30 @@ justify-content: center;
   text-align: center;
 }
 
+.footer-social-text {
+  direction: ltr;
+}
+
+.footer-contact-title , .footer-email {
+	margin: unset !important;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center; /* Center items in column layout */
+    text-align: center; /* Ensure text is centered */
+  }
+
 /* Desktop Layout */
 @media (min-width: 768px) {
   .site-footer {
