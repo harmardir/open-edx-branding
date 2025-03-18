@@ -17,6 +17,7 @@ h2 {
   font-size: 48px;
   font-weight: 600;
   line-height: 48px;
+  color: #627631 !important;
 }
 
 h3 {
@@ -321,8 +322,12 @@ span.d-block.m-0.font-weight-bold.course-title {
     stroke: #627631;
 }
 
-.donut-chart-text {
+.donut-chart-label {
+    font-family: 'Noto Kufi Arabic' !important;
+}
 
+.donut-chart-text {
+  fill:#627631 !important ;
 }
 
 .fade.alert-content.alert.alert-light.show {
