@@ -302,6 +302,10 @@ span.d-block.m-0.font-weight-bold.course-title {
 
 // Learning MFE
 
+.pgn__checkpoint[data-popper-placement^=top]>#pgn__checkpoint-arrow:after {
+    border-top-color: #9d0054 !important;
+}
+
 @media (min-width: 768px) {
     .row.w-100.mx-0.my-3.justify-content-between > .col-12.col-sm-auto.p-0 > div[role="heading"][aria-level="1"].h2 {
         margin-top: 30px; /* Adjust the value as needed */
