@@ -373,10 +373,30 @@ nav[aria-label=breadcrumb] {
     padding: 0 10px 2rem !important;
 }
 
+.d-inline-block {
+    display: inline-block !important;
+    padding: 0px 10px !important;
+}
+.position-relative.d-flex.align-items-start, .sequence-container .sequence.w-100 {
+    padding: 10px !important;
+    padding-top: 0px !important;
+}
+	
+
+}
+
+
+.d-inline-block {
+    display: inline-block !important;
+    padding: 0px 32px !important;
+}
+.position-relative.d-flex.align-items-start, .sequence-container .sequence.w-100 {
+    padding: 32px !important;
+    padding-top: 0px !important;
 }
 
 .unit-container {
-    max-width: 1200px !important;
+    max-width: 1155px !important;
 }
 
 
