@@ -363,6 +363,14 @@ nav[aria-label=breadcrumb] {
     color: inherit !important;
 }
 
+.d-inline-block {
+    display: inline-block !important;
+    padding: 0px !important;
+}
+.position-relative.d-flex.align-items-start, .sequence-container .sequence.w-100 {
+    padding: 0 32px !important;
+}
+
 // remove padding for small screens
 @media (max-width: 600px) {
   .course-wrapper main {
@@ -373,27 +381,11 @@ nav[aria-label=breadcrumb] {
     padding: 0 10px 2rem !important;
 }
 
-.d-inline-block {
-    display: inline-block !important;
-    padding: 0px 10px !important;
-}
 .position-relative.d-flex.align-items-start, .sequence-container .sequence.w-100 {
-    padding: 10px !important;
-    padding-top: 0px !important;
+    padding: 0 10px !important;
 }
-	
+	}
 
-}
-
-
-.d-inline-block {
-    display: inline-block !important;
-    padding: 0px 32px !important;
-}
-.position-relative.d-flex.align-items-start, .sequence-container .sequence.w-100 {
-    padding: 32px !important;
-    padding-top: 0px !important;
-}
 
 .unit-container {
     max-width: 1155px !important;
