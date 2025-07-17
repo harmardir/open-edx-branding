@@ -901,6 +901,10 @@ justify-content: center;
 
 // Learning Header
 
+.hide-anonymous-menu {
+  display: none;
+}
+
 .burger-menu {
     display: none; /* Hidden on larger screens */
     cursor: pointer;
